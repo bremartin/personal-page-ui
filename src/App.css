@@ -10,7 +10,7 @@
 
 .App-header {
   background-color: #282c34;
-  background-image: url("stink-pickle-5003-unsplash.jpg");
+  background-image: url("./images/stink-pickle-5003-unsplash.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;

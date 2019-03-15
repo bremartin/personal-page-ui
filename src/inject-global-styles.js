@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+//import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
 
 const ParagraphFont = styled.p`
@@ -22,8 +22,9 @@ const ParagraphFont = styled.p`
 
 `;
 
-export const Links = styled.div`
+export const Links = styled.a`
   {
+    text-decoration: none;
     font-size: 16px;
     class: top-right;
     width: 100px
@@ -44,5 +45,6 @@ export const Pronunciation = styled.p`
   position: relative
   top: -300px
 `;
+
 
 export default ParagraphFont
